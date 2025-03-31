@@ -70,7 +70,7 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('"sea"', '"fleur"'),
 
     ('vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so', 'vendor/lib64/libmtkcam_stdutils.so'): blob_fixup()
-        .replace_needed('libutils.so', 'libutils-v32.fleur.so'),
+        .replace_needed('libutils.so', 'libutils-v32.so'),
 
     'vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so': blob_fixup()
         .replace_needed('libhidlbase.so', 'libhidlbase-v32.so'),
