@@ -9,25 +9,25 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from device makefile.
-$(call inherit-product, device/xiaomi/fleur/device.mk)
+$(call inherit-product, device/xiaomi/sea/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_fleur
-PRODUCT_DEVICE := fleur
+PRODUCT_NAME := lineage_sea
+PRODUCT_DEVICE := sea
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := 2201117SY
+PRODUCT_MODEL := 23030RAC7Y
 
-PRODUCT_SYSTEM_NAME := fleur_global
-PRODUCT_SYSTEM_DEVICE := fleur
+PRODUCT_SYSTEM_NAME := sea_global
+PRODUCT_SYSTEM_DEVICE := sea
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="fleur_global-user 13 SP1A.210812.016 V816.0.9.0.TKEMIXM release-keys" \
-    BuildFingerprint=Redmi/fleur_global/fleur:13/SP1A.210812.016/V816.0.9.0.TKEMIXM:user/release-keys \
+    BuildDesc="sea_global-user 15 AP3A.240905.015.A2 OS2.0.2.0.VHZMIXM release-keys" \
+    BuildFingerprint=Redmi/sea_global/sea:15/AP3A.240905.015.A2/OS2.0.2.0.VHZMIXM:user/release-keys \
     SystemModel=$(PRODUCT_SYSTEM_DEVICE) \
     SystemName=$(PRODUCT_SYSTEM_NAME) \
     ProductModel=$(PRODUCT_SYSTEM_DEVICE) \

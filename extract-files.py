@@ -21,7 +21,7 @@ from extract_utils.main import (
 extract_utils.tools.DEFAULT_PATCHELF_VERSION = '0_17_2'
 
 namespace_imports = [
-	'device/xiaomi/fleur',
+	'device/xiaomi/sea',
 	'hardware/mediatek',
 	'hardware/mediatek/libmtkperf_client',
 	'hardware/xiaomi',
@@ -116,7 +116,7 @@ blob_fixups: blob_fixups_user_type = {
 }
 
 module = ExtractUtilsModule(
-    'fleur',
+    'sea',
     'xiaomi',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,

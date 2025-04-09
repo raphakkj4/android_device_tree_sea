@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/fleur
+DEVICE_PATH := device/xiaomi/sea
 
 # Enable 64-bit for non-zygote.
 ZYGOTE_FORCE_64 := true
@@ -67,7 +67,7 @@ BOARD_KERNEL_CMDLINE := \
     bootopt=64S3,32N2,64N2
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := fleur
+TARGET_BOOTLOADER_BOARD_NAME := sea, ocean
 TARGET_NO_BOOTLOADER := true
 
 # Display
@@ -75,7 +75,7 @@ TARGET_SCREEN_DENSITY := 420
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/mt6781
-TARGET_KERNEL_CONFIG := fleur_defconfig
+TARGET_KERNEL_CONFIG := sea_defconfig
 TARGET_KERNEL_NO_GCC := true
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 
@@ -178,4 +178,4 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 
 # Inherit the proprietary files
-include vendor/xiaomi/fleur/BoardConfigVendor.mk
+include vendor/xiaomi/sea/BoardConfigVendor.mk

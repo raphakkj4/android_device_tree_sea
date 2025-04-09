@@ -7,4 +7,4 @@ persist.dbg.wfc_avail_ovr=0
 log.tag=I
 
 # RIL
-ro.product.mod_device=fleur_global
+ro.product.mod_device=sea_global

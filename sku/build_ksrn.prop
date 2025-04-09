@@ -1,0 +1,7 @@
+bluetooth.device.default_name=Redmi Note 12S
+vendor.usb.product_string=Redmi Note 12S
+ro.product.marketname=Redmi Note 12S
+ro.product.odm.brand=Redmi
+ro.product.odm.device=sea
+ro.product.odm.model=sea
+ro.product.odm.name=sea_global
