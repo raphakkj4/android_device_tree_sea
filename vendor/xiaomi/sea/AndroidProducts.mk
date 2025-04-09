@@ -25,6 +25,3 @@ PRODUCT_PACKAGE_KERNEL := true
 # Defining that the sea-vendor.mk file will be used in the build
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/sea-vendor.mk
-
-# Include product configuration file
-include $(BUILD_SYSTEM)/product.mk
